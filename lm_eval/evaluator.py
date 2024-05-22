@@ -105,6 +105,7 @@ def simple_evaluate(
                 "batch_size": batch_size,
                 "max_batch_size": max_batch_size,
                 "device": device,
+                "trust_remote_code": True,
             },
         )
     else:
